@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.nav{
+    /* margin: 1rem 0; */
+    padding: 20px 0;
+    width: 100%;
+    
+    /* right: 0px; */
+    /* background: rgb(85, 39, 39); */
+}
+.nav .Navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 1rem; */
+    /* rgb(85, 39, 39) */
+    /* color: rgb(85, 39, 39); */
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav .Navlist li{
+    padding: 1rem;
+    transition: 0.7s ease;
+}
+
+.nav .Navlist li:hover{
+    /* text-decoration: underline; */
+    background: rgb(85, 39, 39);
+    color: white;
+    border-radius: 0.6rem;
+}
+
+
+
+
+
+
+
+
+/* ------------------burger menu--------------- */
+
+@media (max-width:768px){
+    .nav{
+        background: rgb(85, 39, 39);
+        margin-top: 1rem;
+        padding: 0.6rem 0.6rem;
+        align-self: first baseline;
+    flex-basis: 20%;
+    height: 100%;
+    }
+
+    .burger-menu{
+        height: 100%;
+        width: 4em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        /* border: 2px solid rgb(85, 39, 39); */
+        /* background-color: rgb(85, 39, 39); */
+    }
+
+    .burger-bar{
+        width: 40px;
+        height: 5px;
+        background-color: white;
+        border-radius: 0.5rem;
+        margin: 3px 0;
+    }
+
+
+    /* -----------------------------------sliding menu----------------- */
+    .hidden{
+        display: none;
+    }
+    .visible{
+        display: inherit;
+    }
+
+    /* ----------animation------------- */
+    .burger-bar.clicked:nth-child(1){
+        transform: translate(0, 11px) rotate(45deg);
+        transition: ease-out 0.5s;
+    }
+    .burger-bar.clicked:nth-child(2){
+        opacity: 0;
+        /* transform: scale(0.1);
+        transition: ease-out 0.5s; */
+    }
+    .burger-bar.clicked:nth-child(3){
+        transform: translate(0, -11px) rotate(-45deg);
+        transition: ease-out 0.5s;
+    }
+    /* --------unclicked-------- */
+    .burger-bar .unclicked{
+        transform: rotate(0) translate(0);
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+
+    /* list */
+    .Navlist{
+        position: fixed;
+        right: -200px;
+        top: 6rem;
+        background-color: #552727;
+        /* gap: 0; */
+        flex-direction: column;
+        /* background-color: rgb(85, 39, 39); */
+        text-align: left;
+        transition: 0.3s;
+        justify-content: space-between;
+        color: rgb(85, 39, 39);
+        cursor: pointer;
+        font-size: smaller;
+
+    }
+
+    .Navlist li{
+        color: white;
+    }
+
+    .Navlist.active{
+        right: 0;
+    }
+}

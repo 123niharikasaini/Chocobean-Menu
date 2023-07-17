@@ -1,0 +1,39 @@
+.head{
+    padding: 0;
+    text-align: center;
+    /* color: rgb(85, 39, 39); */
+    color: white;
+    background: rgb(85, 39, 39);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.head h1{
+    background: rgb(85, 39, 39);
+    text-transform: uppercase;
+}
+
+.head h3{
+    text-transform: capitalize;
+    margin-top: -10px;
+    line-height: 0%;
+    /* font-family: 'Pacifico', cursive; */
+    font-size: 1.5rem;
+    /* font-weight: 100; */
+    background: rgb(85, 39, 39);
+
+}
+
+
+/* -------------------------Responsive---------------------------- */
+@media (max-width:768px){
+    .head{
+        text-align: left;
+        margin-left: 1rem;
+        /* align-self: left; */
+    }
+    .head h3{
+        margin-left: 1rem;
+    }
+}
