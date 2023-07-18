@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "//123niharikasaini.github.io/Chocobean-Menu/static/css/main.350da73c.css",
-    "main.js": "//123niharikasaini.github.io/Chocobean-Menu/static/js/main.36e915a6.js",
-    "index.html": "//123niharikasaini.github.io/Chocobean-Menu/index.html",
-    "main.350da73c.css.map": "//123niharikasaini.github.io/Chocobean-Menu/static/css/main.350da73c.css.map",
-    "main.36e915a6.js.map": "//123niharikasaini.github.io/Chocobean-Menu/static/js/main.36e915a6.js.map"
+    "main.css": "/Chocobean-Menu/static/css/main.18133d65.css",
+    "main.js": "/Chocobean-Menu/static/js/main.9191eeab.js",
+    "index.html": "/Chocobean-Menu/index.html",
+    "main.18133d65.css.map": "/Chocobean-Menu/static/css/main.18133d65.css.map",
+    "main.9191eeab.js.map": "/Chocobean-Menu/static/js/main.9191eeab.js.map"
   },
   "entrypoints": [
-    "static/css/main.350da73c.css",
-    "static/js/main.36e915a6.js"
+    "static/css/main.18133d65.css",
+    "static/js/main.9191eeab.js"
   ]
 }
