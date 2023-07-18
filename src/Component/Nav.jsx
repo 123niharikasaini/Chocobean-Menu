@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import "./nav.css";
+import "../styles/nav.css";
 // import img from "../assest/Chocobean-logo-removebg-preview.png";
 
 
@@ -8,7 +8,7 @@ const Nav=()=>{
 
     // to change burger class
     const [burger_class,setBurgerClass]=useState("burger-bar unclicked");
-    const [menu_class,setMenuClass]=useState("menu hidden");
+    // const [menu_class,setMenuClass]=useState("menu hidden");
     const [isMenuClicked,setIsMenuClicked]=useState(false);
     
     
@@ -18,12 +18,12 @@ const Nav=()=>{
         console.log("clicked");
         if(!isMenuClicked){
             setBurgerClass("burger-bar clicked");
-            setMenuClass("menu visible"); 
+            // setMenuClass("menu visible"); 
             addClass("Navlist active");
         }
         else{
             setBurgerClass("burger-bar unclicked");
-            setMenuClass("menu hidden");
+            // setMenuClass("menu hidden");
             addClass("Navlist");
         }
         

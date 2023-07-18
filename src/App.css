@@ -1,12 +1,32 @@
+.cards{
+    /* padding: 10px; */
+  
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  row-gap: 0.75rem;
+  column-gap: 0.75rem;
+  justify-content: center;
+}
+
+
+
+
 @media (max-width:768px){
     
-
 .main{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-background:  rgb(85, 39, 39);
-   }  
+    background:  rgb(85, 39, 39);
+   }   
    
    
+   .cards{
+    
+  grid-template-columns: 35% 35%;
+  row-gap: 0.75rem;
+  column-gap: 0.75rem;
+  justify-content: space-around;
+  
+}
 }

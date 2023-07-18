@@ -6,7 +6,7 @@
     background: rgb(85, 39, 39);
     display: flex;
     flex-direction: column;
-    gap: 0;
+    
 }
 
 .head h1{
@@ -30,10 +30,21 @@
 @media (max-width:768px){
     .head{
         text-align: left;
-        margin-left: 1rem;
+        margin-left: 0.6rem;
         /* align-self: left; */
+        
+
     }
+
+    .head h1{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
     .head h3{
-        margin-left: 1rem;
+        margin-left: 3rem;
+        font-size: 1rem;
+        font-weight: 100;
+
     }
 }
