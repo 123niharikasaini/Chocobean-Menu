@@ -1,7 +1,5 @@
 import React from "react";
-// import img from "../assest/cakes/Ist.jpg";
 import "../styles/card.css";
-import Arr from './details';
 
 const Card=(props)=>{
     return(
