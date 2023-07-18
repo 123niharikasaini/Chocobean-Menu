@@ -37,7 +37,10 @@
     color: white;
     border-radius: 0.6rem;
 }
+.nav .Navlist li a:hover{
+    color: white;
 
+}
 
 
 
