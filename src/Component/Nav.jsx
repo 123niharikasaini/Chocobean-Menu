@@ -15,7 +15,7 @@ const Nav=()=>{
  
     // toggle burger menu change
     const updateMenu=()=>{
-        console.log("clicked");
+        // console.log("clicked");
         if(!isMenuClicked){
             setBurgerClass("burger-bar clicked");
             // setMenuClass("menu visible"); 
@@ -29,17 +29,25 @@ const Nav=()=>{
         
         setIsMenuClicked(!isMenuClicked);
     
-    }
+    };
+
+    const hide=()=>{
+            setBurgerClass("burger-bar unclicked");
+        
+            addClass("Navlist hidden");
+        
+        
+    };
 
     return(
         <>
-        <div className="nav">
-            <ul className={navClass}>
-                <li>Cakes</li>
-                <li>Tea time Cakes</li>
-                <li>Cupcakes</li>
-                <li>Brownie</li>
-                <li>Cookies</li>
+        <div className="nav" >
+            <ul className={navClass} onMouseLeave={hide}>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#cupCakes">Cupcakes</a></li>
+                <li><a href="#Brownie">Brownie</a></li>
+                <li><a href="#Cookie">Cookies</a></li>
+                {/* <li>Tea time Cakes</li> */}
                 {/* <li>BentoCakes</li> */}
             </ul>
 

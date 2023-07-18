@@ -12,6 +12,7 @@
 .head h1{
     background: rgb(85, 39, 39);
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .head h3{
@@ -22,7 +23,7 @@
     font-size: 1.5rem;
     /* font-weight: 100; */
     background: rgb(85, 39, 39);
-
+    font-weight: 300;
 }
 
 

@@ -1,0 +1,16 @@
+.Footer{
+    background-color: rgb(85, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.Footer .contact{
+    list-style: none;
+}
+
+.Footer .copyright{
+    text-align: center;
+    margin-left: 0.6rem;
+}
