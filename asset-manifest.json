@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Chocobean-Menu/static/css/main.18133d65.css",
-    "main.js": "/Chocobean-Menu/static/js/main.9191eeab.js",
+    "main.css": "/Chocobean-Menu/static/css/main.74747d9f.css",
+    "main.js": "/Chocobean-Menu/static/js/main.bc122d02.js",
     "index.html": "/Chocobean-Menu/index.html",
-    "main.18133d65.css.map": "/Chocobean-Menu/static/css/main.18133d65.css.map",
-    "main.9191eeab.js.map": "/Chocobean-Menu/static/js/main.9191eeab.js.map"
+    "main.74747d9f.css.map": "/Chocobean-Menu/static/css/main.74747d9f.css.map",
+    "main.bc122d02.js.map": "/Chocobean-Menu/static/js/main.bc122d02.js.map"
   },
   "entrypoints": [
-    "static/css/main.18133d65.css",
-    "static/js/main.9191eeab.js"
+    "static/css/main.74747d9f.css",
+    "static/js/main.bc122d02.js"
   ]
 }
