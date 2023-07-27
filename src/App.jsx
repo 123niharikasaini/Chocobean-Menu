@@ -15,14 +15,19 @@ import CookiesHead from './Component/CookiesHead';
 import Cookies from './Component/CookiesList';
 import Customize from './Component/Customize';
 import Footer from "./Component/Footer";
+import { Routes } from 'react-router-dom';
 
-function App(props) {
+function App() {
   return (
     <>
       <div className='main'>
         <Header />
         <Nav />
       </div>
+
+      {/* <Routes>
+
+      </Routes> */}
 
       <div class="table">
         <TableHead />
