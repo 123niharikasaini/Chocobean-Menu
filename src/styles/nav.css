@@ -3,7 +3,7 @@
 
 .nav{
     /* margin: 1rem 0; */
-    padding: 20px 0;
+    padding: 10px 0;
     width: 100%;
     
     /* right: 0px; */
@@ -28,7 +28,7 @@
 }
 .nav .Navlist li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .nav .Navlist li:hover{
@@ -39,7 +39,7 @@
 }
 .nav .Navlist li a:hover{
     color: white;
-
+    text-decoration: underline;
 }
 
 
@@ -55,9 +55,10 @@
         background: rgb(85, 39, 39);
         margin-top: 1rem;
         padding: 0.6rem 0.6rem;
-        align-self: first baseline;
-    flex-basis: 20%;
-    height: 100%;
+        /* align-self: right; */
+        /* margin-left: 80%; */
+        flex-basis: 20%;
+        height: 35%;
     
     }
 
@@ -66,6 +67,7 @@
         width: 4em;
         display: flex;
         flex-direction: column;
+        margin-top: 0px;
         align-items: center;
         justify-content: space-between;
         cursor: pointer;
@@ -79,6 +81,7 @@
         background-color: white;
         border-radius: 0.5rem;
         margin: 3px 0;
+        /* position: relative; */
     }
 
 
@@ -115,7 +118,7 @@
     /* list */
     .Navlist{
         position: fixed;
-        right: -200px;
+        right: -250px;
         top: 6rem;
         background-color: #552727;
         /* gap: 0; */
@@ -127,7 +130,7 @@
         color: rgb(85, 39, 39);
         cursor: pointer;
         font-size: smaller;
-
+        padding: 5% 10%;
     }
 
     .Navlist li{

@@ -1,0 +1,12 @@
+.part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.part .title{
+    text-align: left;
+    margin-left: 100px;
+    font-family: 'Pacifico', cursive;
+}

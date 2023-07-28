@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import "../styles/nav.css";
+import { NavLink } from "react-router-dom";
 // import img from "../assest/Chocobean-logo-removebg-preview.png";
 
 
@@ -44,10 +45,11 @@ const Nav=()=>{
         <>
         <div className="nav" >
             <ul className={navClass} onMouseLeave={hide}>
-                <li><a href="#cakes">Cakes</a></li>
-                <li><a href="#cupCakes">Cupcakes</a></li>
-                <li><a href="#Brownie">Brownie</a></li>
-                <li><a href="#Cookie">Cookies</a></li>
+                <li><NavLink to="/Chocobean-Menu">Home</NavLink></li>
+                <li><NavLink to="/cakes">Cakes</NavLink></li>
+                <li><NavLink to="/cupcakes">Cupcakes</NavLink></li>
+                <li><NavLink to="/brownie">Brownie</NavLink></li>
+                <li><NavLink to="/cookies">Cookies</NavLink></li>
                 {/* <li>Tea time Cakes</li> */}
                 {/* <li>BentoCakes</li> */}
             </ul>
