@@ -5,7 +5,7 @@ const Table=()=>{
         <>
         <div className="Footer">
             <ul className="contact">
-                <li>Contact Us- 8076712584</li>
+                <li>Contact Us- 809XXXXXXX</li>
             </ul>
             <div className="copyright">&copy; CopyRight with @NiharikaSaini</div>
         </div>

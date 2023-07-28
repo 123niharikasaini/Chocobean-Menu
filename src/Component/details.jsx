@@ -1,45 +1,31 @@
+import img1 from "../assest/cakes/Valentine-1.png";
+import img2 from "../assest/cakes/12th.jpg";
+import img3 from "../assest/cakes/7th.jpg";
+
+
+
 const Arr=[
     {
         id: 1,
-        imgSrc: "./assest/cakes/30.jpg",
+        imgSrc: img1,
         // title: "Fruit Cakes",
-        price: "600/-",
+        // price: "700/-",
     },
 
     {
         id: 2,
-        imgSrc: "./assest/cakes/third.jpg",
+        imgSrc: img2,
         // title: "Customize Cakes",
-        price: "450/-",
+        // price: "450/-",
     },
 
     {
         id: 3,
-        imgSrc: "./assest/cakes/36.jpg",
+        imgSrc: img3,
         // title: "Customize Cakes",
-        price: "450/-",
+        // price: "450/-",
     },
 
-    {
-        id: 4,
-        imgSrc: "./assest/cakes/34.jpg",
-        // title: "Customize Cakes",
-        price: "500/-",
-    },
-
-    {
-        id: 5,
-        imgSrc: "./assest/cakes/29.jpg",
-        // title: "Customize Cakes",
-        price: "500/-",
-    },
-
-    {
-        id: 6,
-        imgSrc: "./assest/cakes/12th.jpg",
-        // title: "Customize Cakes",
-        price: "650/-",
-    },
 ];
 
 export default Arr;

@@ -1,5 +1,11 @@
 
 const Cakes=[
+    // {
+    //     id: 1,
+    //     // item: "Black Forest",
+    //     price: "500g/1kg"
+    // },
+
     {
         id: 1,
         item: "Black Forest",

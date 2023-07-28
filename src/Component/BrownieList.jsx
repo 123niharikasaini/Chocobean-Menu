@@ -15,7 +15,7 @@ const Brownie=[
     {
         id: 3,
         item: "Hazelnut Nuttela",
-        price: "600"
+        price: "600/-"
     }
 ]
 
