@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/Chocobean-Menu/static/css/main.74747d9f.css",
-    "main.js": "/Chocobean-Menu/static/js/main.bc122d02.js",
+    "main.css": "/Chocobean-Menu/static/css/main.28cb72d2.css",
+    "main.js": "/Chocobean-Menu/static/js/main.a0dd0d85.js",
+    "static/media/Valentine-1.png": "/Chocobean-Menu/static/media/Valentine-1.e2d67165f2fa5757c95f.png",
+    "static/media/18th.jpg": "/Chocobean-Menu/static/media/18th.bff4aab7f3b262122ebb.jpg",
+    "static/media/19th.jpg": "/Chocobean-Menu/static/media/19th.22f324d0467d8d1c63fe.jpg",
+    "static/media/22th.jpg": "/Chocobean-Menu/static/media/22th.97764af2cb3485bfa372.jpg",
+    "static/media/20th.jpg": "/Chocobean-Menu/static/media/20th.46269a9b5bcdbda286bb.jpg",
+    "static/media/16th.jpg": "/Chocobean-Menu/static/media/16th.4a6fdc556102b83e8d5b.jpg",
+    "static/media/8th.jpg": "/Chocobean-Menu/static/media/8th.b1e8b1bc5ce5a927a480.jpg",
+    "static/media/7th.jpg": "/Chocobean-Menu/static/media/7th.1e3701b353f943cfd79f.jpg",
+    "static/media/15th.jpg": "/Chocobean-Menu/static/media/15th.c51150a34ba16360aede.jpg",
+    "static/media/14th.jpg": "/Chocobean-Menu/static/media/14th.cdb713dd3beeee493ac4.jpg",
+    "static/media/12th.jpg": "/Chocobean-Menu/static/media/12th.f9472a9ea6bc8fac1ec2.jpg",
+    "static/media/logo-modified.png": "/Chocobean-Menu/static/media/logo-modified.854b669bfdf5a433c115.png",
     "index.html": "/Chocobean-Menu/index.html",
-    "main.74747d9f.css.map": "/Chocobean-Menu/static/css/main.74747d9f.css.map",
-    "main.bc122d02.js.map": "/Chocobean-Menu/static/js/main.bc122d02.js.map"
+    "main.28cb72d2.css.map": "/Chocobean-Menu/static/css/main.28cb72d2.css.map",
+    "main.a0dd0d85.js.map": "/Chocobean-Menu/static/js/main.a0dd0d85.js.map"
   },
   "entrypoints": [
-    "static/css/main.74747d9f.css",
-    "static/js/main.bc122d02.js"
+    "static/css/main.28cb72d2.css",
+    "static/js/main.a0dd0d85.js"
   ]
 }
