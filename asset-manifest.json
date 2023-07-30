@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chocobean-Menu/static/css/main.28cb72d2.css",
-    "main.js": "/Chocobean-Menu/static/js/main.a0dd0d85.js",
+    "main.css": "/Chocobean-Menu/static/css/main.e1ba0256.css",
+    "main.js": "/Chocobean-Menu/static/js/main.704d305d.js",
     "static/media/Valentine-1.png": "/Chocobean-Menu/static/media/Valentine-1.e2d67165f2fa5757c95f.png",
     "static/media/18th.jpg": "/Chocobean-Menu/static/media/18th.bff4aab7f3b262122ebb.jpg",
     "static/media/19th.jpg": "/Chocobean-Menu/static/media/19th.22f324d0467d8d1c63fe.jpg",
@@ -15,11 +15,11 @@
     "static/media/12th.jpg": "/Chocobean-Menu/static/media/12th.f9472a9ea6bc8fac1ec2.jpg",
     "static/media/logo-modified.png": "/Chocobean-Menu/static/media/logo-modified.854b669bfdf5a433c115.png",
     "index.html": "/Chocobean-Menu/index.html",
-    "main.28cb72d2.css.map": "/Chocobean-Menu/static/css/main.28cb72d2.css.map",
-    "main.a0dd0d85.js.map": "/Chocobean-Menu/static/js/main.a0dd0d85.js.map"
+    "main.e1ba0256.css.map": "/Chocobean-Menu/static/css/main.e1ba0256.css.map",
+    "main.704d305d.js.map": "/Chocobean-Menu/static/js/main.704d305d.js.map"
   },
   "entrypoints": [
-    "static/css/main.28cb72d2.css",
-    "static/js/main.a0dd0d85.js"
+    "static/css/main.e1ba0256.css",
+    "static/js/main.704d305d.js"
   ]
 }
