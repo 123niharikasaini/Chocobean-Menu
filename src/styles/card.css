@@ -15,6 +15,7 @@
     /* width: 100%; */
     border: 2px solid rgb(85, 39, 39);
     margin: 2rem 1rem;
+    text-align: center;
 }
 
 .card .image{
@@ -25,18 +26,21 @@
 
 .card .image img{
     height: 200px;
-    width: 200px;
+    width: 100%;
     object-fit: cover;
 }
 
-.card .info{
+/* .card .info{
     display: flex;
     flex-direction: column;
-}
+    flex-wrap: wrap;
+} */
 
-.card .info .title{
-    align-self: center;
+.part .card .title{
     color: rgb(85, 39, 39);
+    width: 100%;
+    margin: 0;
+    text-align: center;
 }
 
 /* .card .info .price{
@@ -54,9 +58,9 @@
 
     .cards{
     
-        grid-template-columns: 40% 40%;
-        row-gap: 0.75rem;
-        column-gap: 0.75rem;
+        grid-template-columns: 45% 45%;
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
         justify-content: space-around;
         
       }
@@ -65,7 +69,7 @@
         border-width: 1.5px;
     }
     .card .image img{
-        height: 200px;
+        height: 150px;
         width: 100%;
         object-fit: cover;
     }
