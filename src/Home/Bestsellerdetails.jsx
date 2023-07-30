@@ -12,21 +12,21 @@ const Arr=[
     {
         id: 1,
         imgSrc: img1,
-        title: "Hazzelnut Cakes",
+        title: "Hazelnut Cake",
         // price: "700/-",
     },
 
     {
         id: 2,
         imgSrc: img2,
-        title: "Fruit Cakes",
+        title: "Chocolate Truffle Cake",
         // price: "450/-",
     },
 
     {
         id: 3,
         imgSrc: img3,
-        title: "Chocolate Truffle Cakes",
+        title: "Fruit Cake",
         // price: "450/-",
     },
 
