@@ -8,10 +8,10 @@ const Card=(props)=>{
             <div className="image">
                 <img src={props.imgSrc} alt="..."/>
             </div>
-            <div className="info">
-                <div className="title">{props.title}</div>
-                <div className="price">{props.price}</div>
-            </div>
+            {/* <div className="info"> */}
+            <div className="title">{props.title}</div>
+                {/* <div className="price">{props.price}</div> */}
+            {/* </div> */}
         </div>
         </>
     )
